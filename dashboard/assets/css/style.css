@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --basic-color: #13c8a6;
+    --standard-color: #efcb53;
+    --premium-color: #555fae;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a, a:hover, a:focus {
+    outline: none;
+}
+
+.bg-custom-blue {
+    background-color: #001845 !important;
+}
+
+.offcanvas-start {
+    width: 300px;
+}
+
+.offcanvas .offcanvas-body {
+    background  : #001233;
+}
+
+.offcanvas .offcanvas-body .list-group-item-action {
+    color: white !important;
+    transition: 0.2s ease-in-out !important;
+    margin: 3px 0px;
+    padding: 7px 15px;
+    height: 42px;
+    border-radius: 5px !important;
+    text-decoration: none;
+}
+
+.offcanvas .offcanvas-body .list-group-item-action:hover {
+    color: #001233 !important;
+    background-image: none !important;
+    background-color: white;
+}
+
+.offcanvas .offcanvas-body .list-group-item-action.active {
+    background-image: linear-gradient(to right top, #a4161a, #a9161a, #af171b, #b4171b, #ba181b);
+    box-shadow: 1px 1px 4px #1b1b1b;
+    border-radius: 5px;
+}
+
+.offcanvas .offcanvas-body .list-group-item-action i {
+    margin-right: .5rem !important;
+}
+
+table tr td {
+    vertical-align: middle;
+}
+
+table {
+    text-align: center;
+}

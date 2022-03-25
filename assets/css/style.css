@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --basic-color: #13c8a6;
+    --standard-color: #efcb53;
+    --premium-color: #555fae;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a, a:hover, a:focus {
+    outline: none;
+}
+
+.bg-custom-blue {
+    background-color: #001845 !important;
+}
+
+#banner {
+    height: 750px;
+}
+
+#banner .carousel-item {
+    height: 750px !important;
+    background-size: cover !important;
+}
+
+.section:not(.bg) .section-title span {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+    padding: 15px 10px 10px 10px;
+    text-align: center !important;
+}
+
+.section.bg .section-title span {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 10px 10px 10px;
+    text-align: center !important;
+}
+
+.section#about .about-us-desc {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.section#about img {
+    height: 383px;
+}
+
+.bg-gradient-blue {
+    background-image: linear-gradient(to right top, #464cd6, #465bdf, #486ae7, #4c77ee, #5385f4) !important;
+}
+
+.feature-card {
+    background: white;
+    padding: 35px 35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px #000000b3;
+    width: 300px;
+    height: 226px;
+}
+
+.feature-card .feature-card-img {
+    text-align: center;
+}
+
+.feature-card .feature-card-img img {
+    height: 80px;
+}
+
+.feature-card .feature-card-title {
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 700px) {
+    li.nav-item a {
+        margin-bottom: 12px;
+    }
+
+    #banner {
+        height: 400px;
+    }
+    
+    #banner .carousel-item {
+        height: 400px !important;
+        background-size: cover !important;
+    }
+
+    .section#about img {
+        height: 216px;
+    }
+
+    .feature-card {
+        padding: 20px 25px;
+        width: 280px;
+        height: 200px;
+    }
+}
+
+#rooms .card-img-top {
+    height: 204px;
+}
+
+#rooms .card .card-title {
+    width: 45%;
+    padding: 8px;
+    color: #fff;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 145px;
+    right: -10px;
+    box-shadow: -5px 5px 7px #000000bd;
+}
+  
+#rooms .card .card-title::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
+}
+  
+#rooms .card .card-title::before {
+    background-image: linear-gradient(
+        225deg,
+        transparent 50%,
+        var(--bs-red) 50%
+    );
+}
+  
+#rooms .card .card-title {
+    background-color: var(--bs-red);
+}
+
+#rooms .card .card-title-alt::before {
+    background-image: linear-gradient(
+        225deg,
+        transparent 50%,
+        var(--premium-color) 50%
+    );
+}
+  
+#rooms .card .card-title-alt {
+    background-color: var(--premium-color);
+}
+
+#contact .contact-us-list {
+    list-style: none;
+}
+
+#contact .contact-us-list {
+    list-style: none;
+}
+
+.bg-teal {
+    background-color: var(--bs-teal) !important;
+}
+
+.bg-gradient-pink {
+    /* background-image: linear-gradient(to right top, #f607ac, #f323bf, #ef36d3, #e746e6, #dd55f9); */
+    background-image: linear-gradient(to right top, #fb56c8, #f772d8, #f289e6, #ef9ef1, #ecb1f9) !important;
+}
+
+.user-form-card {
+    box-shadow: 8px 10px 15px #e40b3159;
+}
+
+.bg-dark-blue {
+    background-color: #023E7D !important;
+}
